@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="org.nick.controllers.DifficultChoiceController">
+   <children>
+      <Button fx:id="easy" onAction="#easy" alignment="CENTER" minWidth="68.0" mnemonicParsing="false" text="Easy" />
+      <Button fx:id="normal" onAction="#normal" alignment="CENTER" minWidth="68.0" mnemonicParsing="false" text="Normal" />
+      <Button fx:id="hard" onAction="#hard" alignment="CENTER" minWidth="68.0" mnemonicParsing="false" text="Hard" />
+      <Button fx:id="veryHard" onAction="#veryHard" alignment="CENTER" mnemonicParsing="false" text="Very hard" />
+   </children>
+</VBox>
